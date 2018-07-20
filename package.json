@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "preversion": "npm run lint && npm test",
+    "postversion": "git push && git push --tags",
+    "lint": "eslint .",
+    "test": "tape test/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-minlint": "^2.0.0",
+    "tape": "^4.9.1"
+  }
+}
