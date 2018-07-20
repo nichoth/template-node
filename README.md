@@ -1,4 +1,4 @@
 # template node
 
-Project boilerplate for node.js
+Project boilerplate for node.js libraries
 
